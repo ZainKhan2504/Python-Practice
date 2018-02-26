@@ -1,6 +1,6 @@
 import statistics
 
-with open('E:\SSUET Course AI\Python-Practice\\10# Files and Exceptions\\Statistics Functions File\\100numbers.txt') as f:
+with open('E:\SSUET Course AI\Python-Practice\\10# Files and Exceptions\\Statistics Functions File\\numbers.txt') as f:
     lines = f.readlines()
     list = []
     for line in lines:
@@ -16,6 +16,4 @@ with open('E:\SSUET Course AI\Python-Practice\\10# Files and Exceptions\\Statist
     print("The 'Variance' of these numbers are: "+str(variance))
     standardDeviation = statistics.pstdev(list)
     print("The 'Standard Deviation' of these numbers are: " + str(standardDeviation))
-
-
 
